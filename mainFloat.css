@@ -1,0 +1,20 @@
+#floatArea{
+    position: fixed;
+    top:280px;
+    right: -1px;
+}
+
+#floatArea table{
+    width: 40px;
+    height: 240px;
+    border-collapse: collapse;
+    background-color: white;
+    border: 0.1px solid rgb(179, 179, 179);
+}
+#floatArea table .needLine{
+    border: 0.1px solid rgb(179, 179, 179);
+}
+#floatArea img{
+    width: 25px;
+    margin: 0 5px;
+}

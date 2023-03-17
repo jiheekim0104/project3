@@ -1,0 +1,144 @@
+html{
+    background-size: cover; /* 이 처리를 해놔야 화면에 꽉참! */
+}
+body{
+    margin: 0; /* 이 처리를 해놔야 화면에 꽉참! */
+}
+#header { /* 가장 바깥 div */
+    margin: 0 auto;
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    /* opacityr도 투명도 조절인데, div에 포함되는 모든애들이 투명해져서 위에 표현을 사용함*/
+    height: 40px;
+    box-shadow: 0 0.5px rgb(155, 155, 155);
+}
+
+.mainBar {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.leftMainBar div{
+    float: left;
+    padding: 9px 10px;
+}
+
+.leftMainBar div a {
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+.rightMainBar div{
+    float: right;
+    padding: 9px 10px;
+}
+
+.rightMainBar div a{
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+
+#logo{
+    position: relative;
+    margin: 1px auto;
+    height: 150px;
+    box-shadow: 0 0.5px rgb(155, 155, 155);
+    border: 1px solid white; /* 이게 있어야지만 칸 사이즈가 고정되는데 왜 ?*/
+}
+.logoimg {
+    margin: 30px auto;
+    display: block;
+}
+
+.search { 
+    position : relative;
+    width: 180px;
+    margin: 0 auto;
+    top: -50px;
+    left:520px;
+}
+
+.searchImg{
+    margin: 0 auto;
+    float:right;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+
+#menuBar { 
+    margin: 0 auto;
+    background-color: rgb(255,255,255);
+    height: 40px;
+    box-shadow: 0 0.5px rgb(155, 155, 155);
+    
+}
+
+.innerBox{ 
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.innerBox div{
+    float: left;
+    padding: 9px 55px;
+}
+
+.innerBox div a{
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+.top{
+    position : relative;
+    display : inline-block;
+    }
+
+.top-content{
+    display : none;
+    position : absolute;
+    z-index : 1; /*다른 요소들보다 앞에 배치*/
+    font-size: x-large;
+    background-color: white;
+    border: 1px solid rgb(155, 155, 155);
+}
+
+.top-content a{
+    display : block;
+    text-decoration : none;
+    color : rgb(37, 37, 37);
+    font-size: 12px;
+    padding : 12px 20px;
+    min-width : 200px;
+}
+
+.top-content a:hover{
+    background-color: white;
+}
+
+.top:hover .top-content {
+    display: block;
+}
+
+
+
+
+  .global-nav {
+    height: 400px;
+    background-color: palegreen;
+    transition: 0s ease-out;
+  }
+  .maincontents {
+    height: 3000px;
+    background-color: white;
+  }
+  .fixed-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+  }
