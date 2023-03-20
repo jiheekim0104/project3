@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <div class="outline">
+
+    <div class="top_bar"> <!--현재 페이지 상단 바-->
+        <div class="right"><a href="#">Home</a> > Login</div>
+    </div>
+
+    <div id="outline">
+
+        <div class="title">MEMBER LOGIN</div>
+        
+        <form action="#">
+            <div class="input">
+                <label for="id">ID</label>
+                <input type="text" name="id" id="id">
+            </div>
+            <div class="input">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password">
+            </div>
+
+
+            <div>
+                <button class="submit_button" type="submit">로그인</button>
+            </div>          
+        </form>
+
+
+        <div class="sns_login">
+            <button type="button" class="naver_login" onclick="window.open('http://www.naver.com')">네이버 로그인
+            </button>
+    
+            <button type="button" class="kakao_login" onclick="window.open('https://www.kakaocorp.com/page/')">
+            카카오 로그인</button>
+        </div>
+
+
+        <div class="find">
+            <a href="#" style="text-decoration: none;">아이디찾기</a>
+            <a href="#" style="text-decoration: none;"> 비밀번호찾기</a>
+        </div>
+
+
+        <div>
+            <button type="button" class="join_button">회원가입</button>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
