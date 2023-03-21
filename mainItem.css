@@ -2,6 +2,7 @@
 #imgBox{
     width: 1245px;
     margin: 0 auto;
+    
 }
 
 #imgBox img{
@@ -11,8 +12,7 @@
 
 #bestItem{
     width: 1245px;
-    top: 50px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .bestItemText{
