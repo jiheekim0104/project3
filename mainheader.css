@@ -116,20 +116,42 @@ body{
     }
 
 .all-content{
-    /* display : none; */
+    display : none;
     position : absolute;
     left: -0px;
     top: 40px;
     width: 1180px;
+    height: 500px;
     z-index : 1; /*다른 요소들보다 앞에 배치*/
     font-size: small;
     background-color: white;
     border: 1px solid rgb(155, 155, 155);
     padding: 2px 5px !important;
 }
-.all-content div{
-    margin: 0 auto !important;
+.all-content .warrap{
+    padding: 5px 20px;
+    width: 1150px;
 }
+
+.all-content .warrap2{
+    padding: 5px 480px;
+    width: 1150px;
+}
+
+.all-content .top{
+    margin: 0px 20px;
+    padding: 10px 54px !important;
+    box-shadow: 0 0.5px rgb(155, 155, 155);
+    width: 80px;
+    text-align: center;
+}
+
+.all-content .down{
+    
+    width: 180px;
+    padding: 0px 25px !important;
+}
+
 .all-content a{
     display : block;
     text-decoration : none;
