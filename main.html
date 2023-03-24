@@ -7,6 +7,7 @@
     <title>싸고 예쁜 10대 쇼핑몰 쿨텐</title>
     <link rel="shortcut icon" href="logo/titleLogo.png">
     <link rel="stylesheet" href="mainheader.css" />
+    <link rel="stylesheet" href="mainImg.css" />
     <link rel="stylesheet" href="mainItem.css" />
     <link rel="stylesheet" href="mainInfo.css" />
     <link rel="stylesheet" href="mainFloat.css" />
@@ -58,11 +59,11 @@
             <div class="all"> <a href=""> ALL </a>
                 <div class="all-content">
                     <div class="warrap">
-                        <div class="top"> TOP</div>
-                        <div class="top"> BOTTOM</div>
-                        <div class="top"> OUTER</div>
-                        <div class="top"> TOP</div>
-                        <div class="top"> ACC</div>
+                        <div class="topMenu"> TOP</div>
+                        <div class="topMenu"> BOTTOM</div>
+                        <div class="topMenu"> OUTER</div>
+                        <div class="topMenu"> TOP</div>
+                        <div class="topMenu"> ACC</div>
                     </div>
                     <div class="warrap">
                         <div class="down">
@@ -92,10 +93,10 @@
                         </div>
                     </div>
                     <div class="warrap">
-                        <div class="top"> SALE</div>
-                        <div class="top"> BEST 50</div>
-                        <div class="top"> CUMMUNITY</div>
-                        <div class="top"> WHIT US</div>
+                        <div class="topMenu"> SALE</div>
+                        <div class="topMenu"> BEST 50</div>
+                        <div class="topMenu"> CUMMUNITY</div>
+                        <div class="topMenu"> WHIT US</div>
                     </div>
                     <div class="warrap2">
                         <div class="down">
@@ -114,14 +115,14 @@
                 </div>
             </div>
 
-            <div class="top"> <a href=""> TOP</a>
+            <div class="top"> <a class="select" href=""> TOP</a>
                 <div class="top-content">
                     <a href="#">티셔츠</a>
                     <a href="#">반팔티</a>
                     <a href="#">블라우스/남방</a>
                 </div>
             </div>
-            <div class="bottom"> <a href=""> BOTTOM</a>
+            <div class="bottom"> <a class="select" href=""> BOTTOM</a>
                 <div class="bottom-content">
                     <a href="#">긴바지</a>
                     <a href="#">반바지</a>
@@ -131,7 +132,7 @@
                 </div>
             </div>
 
-            <div class="outer"> <a href=""> OUTER</a>
+            <div class="outer"> <a class="select" href=""> OUTER</a>
                 <div class="outer-content">
                     <a href="#">가디건</a>
                     <a href="#">점퍼/야상</a>
@@ -139,28 +140,34 @@
                 </div>
             </div>
 
-            <div class="skirt"> <a href=""> SKIRT/OPS</a>
+            <div class="skirt"> <a class="select" href=""> SKIRT/OPS</a>
                 <div class="skirt-content">
                     <a href="#">치마</a>
                     <a href="#">원피스</a>
                 </div> 
             </div>
 
-            <div class="acc"> <a href=""> ACC</a>
+            <div class="acc"> <a class="select" href=""> ACC</a>
                 <div class="acc-content">
                     <a href="#">모자</a>
                     <a href="#">양말</a>
                 </div>
             </div>
-            <div> <a href=""> SALE</a></div>
-            <div> <a href=""> BEST 50</a></div>
+            <div class="sale"> <a class="select" href=""> SALE</a></div>
+            <div class="best50"> <a class="select" href=""> BEST 50</a></div>
             </div>
             
     </div>  
     <div id="imgBox">
-        <!-- <img src="image/main1.jpg"> -->
-        <!--이미지 흰 테두리는 삭제할것!-->
-        <img src="mainImage/cutmain1.jpg">
+    <div class="slide slide_wrap">
+        <div class="slide_item item1"><img src="/mainImage/cutmain1.jpg"></div>
+        <div class="slide_item item2"><img src="/mainImage/cutmain2.jpg"></div>
+        <div class="slide_item item3"><img src="/mainImage/cutmain3.jpg"></div>
+        <div class="slide_item item4"><img src="/mainImage/cutmain4.jpg"></div>
+        <div class="slide_prev_button slide_button">◀</div>
+        <div class="slide_next_button slide_button">▶</div>
+        <ul class="slide_pagination"></ul>
+    </div>
     </div> 
     <div id="bestItem">
         <div class="bestItemText">BEST ITEM</div>
@@ -217,9 +224,7 @@
     <div id="newItem">
         <div class="newItemText">NEW ARRIVAL</div>
         <div class="newItemImgBox1">
-            <a href="product.html">
-                <img src="mainImage/newitem1.gif" class="newItemImg1">
-            </a>
+            <a href="product.html"><img src="mainImage/newitem1.gif" class="newItemImg1"></a>
             <img src="mainImage/newitem2.gif" class="newItemImg2">
             <img src="mainImage/newitem3.gif" class="newItemImg3">
         </div>
@@ -315,4 +320,5 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
 <script src="main.js"></script>
+<script src="mainImg.js"></script>
 </html>

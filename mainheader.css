@@ -33,6 +33,10 @@ body{
     color: black;
 }
 
+.leftMainBar div:hover a{
+    opacity: 50%;
+}
+
 .rightMainBar div{
     float: right;
     padding: 9px 10px;
@@ -42,6 +46,10 @@ body{
     text-decoration: none;
     font-size: small;
     color: black;
+}
+
+.rightMainBar div:hover a{
+    opacity: 50%;
 }
 
 /* 로고 */
@@ -124,7 +132,7 @@ body{
     height: 500px;
     z-index : 1; /*다른 요소들보다 앞에 배치*/
     font-size: small;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid rgb(155, 155, 155);
     padding: 2px 5px !important;
 }
@@ -138,7 +146,7 @@ body{
     width: 1150px;
 }
 
-.all-content .top{
+.all-content .topMenu{
     margin: 0px 20px;
     padding: 10px 54px !important;
     box-shadow: 0 0.5px rgb(155, 155, 155);
@@ -230,6 +238,9 @@ body{
     display: block;
 }
 
+.top:hover .select{
+    color: rgba(155, 155, 155, 0.5);
+}
 
 .bottom{
     position : relative;
@@ -282,6 +293,9 @@ body{
     display: block;
 }
 
+.bottom:hover .select{
+    color: rgba(155, 155, 155, 0.5);
+}
 
 .outer{
     position : relative;
@@ -334,6 +348,9 @@ body{
     display: block;
 }
 
+.outer:hover .select{
+    color: rgba(155, 155, 155, 0.5);
+}
 
 .skirt{
     position : relative;
@@ -386,6 +403,10 @@ body{
     display: block;
 }
 
+.skirt:hover .select{
+    color: rgba(155, 155, 155, 0.5);
+}
+
 .acc{
     position : relative;
     display : inline-block;
@@ -435,6 +456,18 @@ body{
 
 .acc:hover .acc-content {
     display: block;
+}
+
+.acc:hover .select{
+    color: rgba(155, 155, 155, 0.5);
+}
+
+.sale:hover .select{
+    color: rgba(155, 155, 155, 0.5);
+}
+
+.best50:hover .select{
+    color: rgba(155, 155, 155, 0.5);
 }
 
 /* 메인노출 이미지 */

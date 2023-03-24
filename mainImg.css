@@ -1,3 +1,17 @@
+
+#imgBox{
+    width: 1245px;
+    margin: 0 auto;
+    
+}
+
+#imgBox img{
+    width: 1245px;
+    margin: 0.3px;
+}
+
+
+
 .slide {
     /* layout */
     
@@ -11,7 +25,7 @@
     position: relative;
   
     /* size */
-    width: 1200px;
+    width: 1245px;
     height: 630px;
     /* slide drag를 위해 DOM요소가 드래그로 선택되는것을 방지 */
     user-select: none;

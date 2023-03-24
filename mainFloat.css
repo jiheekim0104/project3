@@ -18,3 +18,7 @@
     width: 25px;
     margin: 0 5px;
 }
+
+#floatArea img:hover{
+    opacity: 50%;
+}
