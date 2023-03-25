@@ -31,6 +31,7 @@
     opacity: 50%;
 }
 
+
 .bestItemImg2{
     margin: 0 12px 5px 12px;
 }
@@ -85,8 +86,66 @@
 }
 .ItemExplanationPrice{
     margin: 10px 0 0 0;
+    color: rgb(0,139,204);
+    font-weight: bolder;
+}
+.ItemExplanationPoint img{
+    position: relative;
+    top: 3px;
 }
 
+.ItemExplanation1:hover .hiddenMenu{
+    opacity: 1;
+}
+
+.ItemExplanation2:hover .hiddenMenu{
+    opacity: 1;
+}
+
+.ItemExplanation3:hover .hiddenMenu{
+    opacity: 1;
+}
+
+.hiddenMenu{
+    margin: 20px 0px;
+    opacity: 0;
+}
+
+.hiddenMenu:hover{
+    opacity: 1;
+}
+
+.hidden1:hover{
+    opacity: 0.5;
+}
+
+.hidden2:hover{
+    opacity: 0.5;
+}
+.hidden3:hover{
+    opacity: 0.5;
+}
+.hidden4:hover{
+    opacity: 0.5;
+}
+
+.detail{
+    opacity: 0.9;
+    display: none;
+    position: absolute;
+    width: 395px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid rgb(179, 179, 179);
+    z-index : 1;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+.detail img{
+    position:relative;
+    top: 2px;
+}
 
 .bestItemImgBox2{
     padding: 100px 0 0 0;
