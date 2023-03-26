@@ -147,6 +147,41 @@
     top: 2px;
 }
 
+.popUp{
+    display: none;
+    position: fixed;
+    top: 50px;
+    margin: 0px auto;
+    padding: 0px;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid rgb(179, 179, 179);
+    z-index : 2;
+}
+
+.popUp-Head{
+    background-color: rgb(155,155,155);
+    height: 40px;
+}
+
+.popUp-Head-Text{
+    color: white;
+    font-weight: bolder;
+    height: 20px;
+    width: 80px;
+    padding: 7px;
+    border: 1px solid red;
+}
+
+.popUp-CloseBnt{
+    position: relative;
+    top: -43px;
+    left: 775px;
+    font-size: xx-large;
+}
+
+
 .bestItemImgBox2{
     padding: 100px 0 0 0;
     width: 1245px;

@@ -3,3 +3,9 @@ $(function (){
   	$(".detail").toggle();
   });
 });
+
+$(function (){
+	$(".hidden2").click(function (){
+	$(".popUp").toggle();
+});
+});
