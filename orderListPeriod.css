@@ -66,7 +66,7 @@
 
 input[type="date"] {
   /* input 박스를 선택하면 달력이 뜨게 지금은X => jquery의 datepicker을 써야 함 */
-  position: relative;
+  /* position: relative; */
   font-size: 12px;
   border-radius: 0px;
   border: 1px solid #d5d5d5;
@@ -83,7 +83,6 @@ input[type="date"]::-webkit-inner-spin-button {
   display: none;
   appearance: none;
 }
-
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   /* input 박스 안에 있는 달력 안보이게 처리 */

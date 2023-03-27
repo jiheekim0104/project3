@@ -130,14 +130,14 @@ input[type="checkbox"] {
   margin: 0 0 2px;
   width: 100px;
   height: 26px;
-  color: #666;
+  /* color: #666; */
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   line-height: 26px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
-#small_button_order {
+.small_button_order {
   /* 주문하기 버튼 */
   color: #ffffff;
   background-color: #353535;
@@ -199,7 +199,7 @@ input[type="checkbox"] {
 }
 
 .remove_button {
-  /*관심상품등록 버튼 */
+  /*삭제하기 버튼 */
   padding: 0.65em 3px 0.65em;
   height: 40px;
   color: #ffffff;
