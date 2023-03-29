@@ -5,6 +5,8 @@
 .menu {
   border-bottom: 1px solid #e7e7e7;
   border-color: #5a5a5a;
+  /* 추가 */
+  overflow: hidden;
 }
 
 .tab .selected-korea {
@@ -33,6 +35,11 @@
   border-top: 1px solid #e7e7e7;
 }
 
+.basket-page {
+  height: 375px;
+  overflow: hidden; /*tab2를 hidden 처리하기 위해 추가*/
+}
+
 /* 장바구니가 비어있는 경우 */
 .basket-empty {
   text-align: center;
@@ -40,11 +47,12 @@
   font-size: 11px;
   color: #757575;
   border-bottom: 1px solid #e7e7e7;
+  /* display: none; */
 }
 
 .icon_basket_empty {
   display: flex;
-  justify-content: center; /*flex에서 사용하는 중앙 정렬 속송*/
+  justify-content: center; /*flex에서 사용하는 중앙 정렬 속성*/
 }
 
 .basket-empty img {

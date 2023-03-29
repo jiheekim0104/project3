@@ -217,26 +217,32 @@
         <div class="tab">
           <div class="menu">
             <div class="selected-korea">
-              <a href="#">국내배송상품</a>
+              <a href="#tab1" class="btn">국내배송상품</a>
             </div>
             <div class="selected-abroad">
-              <a href="#">해외배송상품</a>
+              <a href="#tab2" class="btn">해외배송상품</a>
             </div>
           </div>
+
           <div class="basket-page">
             <!--장바구니가 비어있는 경우-->
-            <!--해외배송버튼을 누르면 장바구니가 차있는 경우가 나오게 해보기?......-->
-            <div class="basket-empty">
+            <div id="tab1" class="basket-empty">
               <div class="icon_basket_empty">
                 <img src="../img/icon_basket_empty.PNG" />
               </div>
               장바구니가 비어 있습니다.
             </div>
+
+            <div id="tab2" class="basket-empty">
+              <div class="icon_basket_empty">
+                <img src="../img/icon_basket_empty.PNG" />
+              </div>
+              해외배송의 장바구니가 비어 있습니다.
+            </div>
           </div>
         </div>
 
         <!--주문버튼 박스-->
-        <!--버튼에 마우스 올리면 색상 바뀌는거 구현X-->
         <div class="button">
           <div class="all-buy" id="all-buy">전체상품주문</div>
           <div class="select-buy" id="select-buy">선택상품주문</div>
@@ -363,6 +369,7 @@
     </div>
   </body>
   <script src="./basketButton.js"></script>
+  <script src="./basketTab.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
   <script src="../main.js"></script>
